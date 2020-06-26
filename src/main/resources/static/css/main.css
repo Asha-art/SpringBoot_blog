@@ -1,7 +1,29 @@
-.body{
+body{
     background-color:  #eee;
     padding : 0.5em 1em;
 }
-div{
+
+.container{
+    background-color:rgb(213, 205, 248);
+
     text-align: center;
+    border: solid 1px;
 }
+
+div.row{
+    padding: 25px ;
+    display:block;    
+}
+
+div.form{
+display: block;
+text-align: center;
+}
+form{
+    display: inline-block;
+   
+    margin: 20px auto;
+    text-align: right;
+
+}
+
